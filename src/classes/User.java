@@ -75,7 +75,15 @@ public class User {
 		
 	}
 	
-	
+	void evaluerAge()
+	{
+		if(this.getAge()<24)
+			System.out.println("Age d'étude");
+		else if(this.getAge()<63)
+			System.out.println("age de travail" );
+		else
+			System.out.println("age retraite");
+	}
 	
 
 }
